@@ -176,3 +176,43 @@ h3 { font-size: 1.25rem; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+.project-documents {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ded3c8;
+}
+
+.project-documents summary {
+  color: #3e2e27;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.project-documents ul {
+  margin: 1rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.project-documents li + li {
+  margin-top: 0.75rem;
+}
+
+.project-documents a {
+  color: #3e2e27;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.project-documents summary:focus-visible,
+.project-documents a:focus-visible {
+  outline: 2px solid #3e2e27;
+  outline-offset: 4px;
+}
+
+.coursework-section {
+  background: #f7f3ed;
+}
+
+.coursework-section .card-body {
+  padding: 1.75rem;
+}
