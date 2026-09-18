@@ -18,9 +18,10 @@ A responsive front-end portfolio showcasing my technical skills, professional ba
 
 ## Featured Projects
 
-* FurnitureFit — AI Moving Decision Tool
-* Audit IQ — AI Audit Intelligence Platform
-* AeroCast — Weather Forecast App
+- **FurnitureFit — AI Moving Decision Tool**
+- **Audit IQ — Mortgage QC Copilot**
+- **Bonded Paws Network — Animal Rescue & Shelter Directory (In Development)**
+- **AeroCast — Weather Forecast App**
 
 ## Author
 
