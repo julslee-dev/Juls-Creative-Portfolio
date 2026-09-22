@@ -30,7 +30,7 @@ h3 { font-size: 1.25rem; }
 
 .navbar { border-bottom: 1px solid rgba(229, 215, 200, .9); background: rgba(255,252,247,.95); backdrop-filter: blur(14px); }
 .navbar-brand { display: flex; align-items: center; gap: 10px; color: var(--ink); font-weight: 700; }
-.brand-mark { display: grid; width: 42px; height: 42px; place-items: center; border-radius: 12px; color: white; background: linear-gradient(135deg, var(--blue), var(--violet)); }
+.brand-mark { display: block; width: 52px; height: 52px; flex: 0 0 52px; border: 1px solid #a9785c; border-radius: 14px; object-fit: cover; object-position: center 35%; background: #e5d7c8; box-shadow: 0 2px 7px #432f281a; }
 .nav-link { color: var(--ink); font-weight: 600; }
 .nav-link:hover, .nav-link.active { color: var(--blue); }
 .nav-button { border-radius: 9px; color: white; background: var(--navy); font-weight: 700; }
@@ -227,14 +227,14 @@ h3 { font-size: 1.25rem; }
 .wonder-kicker { margin: 0 0 7px; color: #97715b; font-size: .56rem; letter-spacing: .16em; font-weight: 700; }
 .wonder-header h2 { font-size: clamp(1.3rem, 2vw, 1.8rem); letter-spacing: -.04em; margin: 0; }
 .wonder-badge { white-space: nowrap; background: #e9ecdf; border-radius: 20px; padding: 5px 9px; color: #506046; font-size: .57rem; font-weight: 700; }
-.wonder-stage { position: relative; background: radial-gradient(ellipse at 40% 40%, #455350 0, #292f2d 55%, #242825 100%); }
+.wonder-stage { position: relative; background: radial-gradient(ellipse at 40% 40%, #584039 0, #382823 55%, #2e211d 100%); }
 .globe-view { height: 420px; position: relative; overflow: hidden; }
 #wonder-globe { display: block; width: 100%; height: 100%; cursor: grab; touch-action: pan-y; }
 #wonder-globe:active { cursor: grabbing; }
 .globe-hint { position: absolute; top: 15px; left: 20px; color: #d5d5c4; font-size: .66rem; pointer-events: none; }
 .globe-controls { display: flex; position: absolute; bottom: 16px; left: 18px; gap: 5px; }
-.globe-controls button { border: 1px solid #a4afa344; border-radius: 30px; color: #eee7d7; background: #28312dd9; padding: 7px 11px; min-height: 38px; font: inherit; font-size: .68rem; }
-.globe-controls button:hover { background: #4e5a4a; }
+.globe-controls button { border: 1px solid #a4afa344; border-radius: 30px; color: #eee7d7; background: #382823ed; padding: 7px 11px; min-height: 38px; font: inherit; font-size: .68rem; }
+.globe-controls button:hover { background: #6b4b3c; }
 .wonder-card { position: absolute; width: 205px; bottom: 20px; right: 16px; overflow: hidden; border: 5px solid #fff9ef; border-radius: 15px; background: #fff9ef; box-shadow: 0 15px 35px #0004; transition: transform .25s; }
 .wonder-card:hover { transform: translateY(-3px); }
 .wonder-photo-wrap { position: relative; }
@@ -254,7 +254,7 @@ h3 { font-size: 1.25rem; }
 .wonder-destination[aria-pressed="true"] { border-color: #ac7558; background: #f2e7d9; }
 .wonder-footer { display: flex; justify-content: space-between; gap: 8px; padding: 0 22px 17px; color: #8b7765; font-size: .58rem; }
 .wonder-footer span:first-child { font-style: italic; }
-.globe-marker { position: absolute; padding: 5px 9px; color: #f6edda; background: #27322ded; border: 1px solid #bc9b7180; border-radius: 20px; font: inherit; font-size: .6rem; white-space: nowrap; transform: translate(-50%,-50%); cursor: pointer; }
+.globe-marker { position: absolute; padding: 5px 9px; color: #f6edda; background: #382823ed; border: 1px solid #bc9b7180; border-radius: 20px; font: inherit; font-size: .6rem; white-space: nowrap; transform: translate(-50%,-50%); cursor: pointer; }
 .globe-marker[aria-pressed="true"] { background: #a7694a; color: white; border-color: #f0c9a5; }
 .wonder-explorer button:focus-visible, .wonder-explorer a:focus-visible { outline: 3px solid #dca56b; outline-offset: 3px; }
 .wonder-no-js { padding: 15px; }
